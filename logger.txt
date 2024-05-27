@@ -16,9 +16,9 @@ Body:
         "lng": 33.427362
     },
     "accuracy": 50,
-    "name": "Pratham",
+    "name": "Staah",
     "phone_number": "+91525226565",
-    "address": "1012 Darahsn",
+    "address": "Pal, Adajan",
     "types": [
         "Shoe Park",
         "Park",
@@ -28,7 +28,7 @@ Body:
     "language": "English"
 }
 HTTP/1.1 200 OK
-Date: Mon, 27 May 2024 12:52:01 GMT
+Date: Mon, 27 May 2024 16:18:07 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -41,17 +41,17 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "b4aadd657091f7861346110de29fbc9a",
+    "place_id": "9394e5562ab4f938b4491a2f178bfb90",
     "scope": "APP",
-    "reference": "7198d42f888edb6987f7a3b305c4ea7c7198d42f888edb6987f7a3b305c4ea7c",
-    "id": "7198d42f888edb6987f7a3b305c4ea7c"
+    "reference": "72a11bcd25220d54bb51fee52fc2e77a72a11bcd25220d54bb51fee52fc2e77a",
+    "id": "72a11bcd25220d54bb51fee52fc2e77a"
 }
 Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=b4aadd657091f7861346110de29fbc9a
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=9394e5562ab4f938b4491a2f178bfb90
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
-				place_id=b4aadd657091f7861346110de29fbc9a
+				place_id=9394e5562ab4f938b4491a2f178bfb90
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -60,13 +60,13 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 27 May 2024 12:52:02 GMT
+Date: Mon, 27 May 2024 16:18:08 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
 Access-Control-Max-Age: 3600
 Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 239
+Content-Length: 236
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 Content-Type: application/json;charset=UTF-8
@@ -77,9 +77,9 @@ Content-Type: application/json;charset=UTF-8
         "longitude": "33.427362"
     },
     "accuracy": "50",
-    "name": "Pratham",
+    "name": "Staah",
     "phone_number": "+91525226565",
-    "address": "1012 Darahsn",
+    "address": "Pal, Adajan",
     "types": "Shoe Park,Park,River",
     "website": "https://www.google.com",
     "language": "English"

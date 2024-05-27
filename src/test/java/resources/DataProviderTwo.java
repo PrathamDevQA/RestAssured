@@ -75,7 +75,7 @@ public class DataProviderTwo {
 	}
 
 	public static void main(String[] args) {
-		String filePath = System.getProperty("user.dir") + "\\src\\test\\resources\\Book1.xlsx";
+		String filePath = System.getProperty("user.dir") + "/src/test/resources/Book1.xlsx";
 		String sheetName = "Sheet1";
 
 		DataProviderTwo excelDataReader = new DataProviderTwo(filePath);

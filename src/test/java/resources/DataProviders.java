@@ -21,7 +21,7 @@ public class DataProviders {
 		List<String> datas = new ArrayList<String>();
 
 		FileInputStream fis = new FileInputStream(
-				System.getProperty("user.dir") + "\\src\\test\\resources\\Book1.xlsx");
+				System.getProperty("user.dir") + "/src/test/resources/Book1.xlsx");
 		XSSFWorkbook workBook = new XSSFWorkbook(fis);
 		int noOfSheets = workBook.getNumberOfSheets();
 		for (int i = 0; i < noOfSheets; i++) {
